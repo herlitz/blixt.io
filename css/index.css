@@ -28,31 +28,80 @@ body {
 }
 
 .broughtoyouby {
-  width: 40.7291666666%;
+  width: 40.7222222222%;
   min-height: 70px;
   margin: 800px auto 0;
+  font-style: normal;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
+  text-decoration: none;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .container {
-  width: 27.1875%;
-  height: 358px;
-  margin: 576px auto 0;
+  width: 27.1666666666%;
+  height: 670px;
+  margin: 0 auto;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .contentoverchrome {
-  width: 40.7291666666%;
+  width: 40.7222222222%;
   min-height: 70px;
   margin: 0 auto;
+  font-style: normal;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
+  text-decoration: none;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .image {
@@ -83,55 +132,8 @@ body {
   min-width: 320px;
   max-width: 759px;
   height: auto;
-  margin: 800px auto 0;
+  margin: 550px auto 0;
   overflow: hidden;
-}
-
-.bryanjclark,
-.strike {
-  display: block;
-  width: 250px;
-  height: auto;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.text {
-  width: 26.5625%;
-  min-width: 255px;
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 1.38;
-  text-align: center;
-  letter-spacing: 10px;
-}
-
-._container {
-  display: block;
-  width: 100%;
-}
-
-._image {
-  width: 256px;
-}
-
-.image-2 {
-  width: 254px;
-}
-
-.text-1 {
-  min-height: 69px;
-  margin-top: 473px;
-  font-size: 1.944em;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-}
-
-.text-2 {
-  min-height: 32px;
-  font-style: normal;
-  font-size: 0.556em;
-  color: rgba(255, 255, 255, 0.62);
   -webkit-transform: none;
   -moz-transform: none;
   -o-transform: none;
@@ -149,50 +151,142 @@ body {
   filter: none;
 }
 
+.bryanjclark,
+.strike {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.text {
+  width: 26.5555555555%;
+  min-width: 255px;
+  margin-right: auto;
+  margin-left: auto;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 10px;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+._container {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+._image {
+  width: 256px;
+}
+
+.image-2 {
+  width: 254px;
+}
+
+.text-1 {
+  min-height: 69px;
+  margin-top: 7px;
+  font-size: 1.944em;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  min-height: 32px;
+  font-size: 0.556em;
+  color: rgba(255, 255, 255, 0.62);
+}
+
 ._container-1 {
-  float: left;
   height: 256px;
-  margin-top: 210px;
+  margin-top: 460px;
 }
 
 ._container-2 {
   height: 250px;
-  margin: 20px auto 0;
+  margin-top: 20px;
 }
 
 ._container-3 {
   height: 250px;
-  margin: 40px auto 0;
+  margin-top: 40px;
 }
 
 ._container-4 {
-  float: left;
-  clear: both;
   height: 86px;
-  margin-top: 490px;
+  margin-top: 710px;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 1540px) {
   .broughtoyouby,
   .contentoverchrome {
-    width: 68.28125%;
+    width: 68.3116883116%;
   }
 
   .container {
-    margin-top: 954px;
+    height: 389px;
   }
 
   .phone {
-    width: 640px;
     height: auto;
+    margin-top: 760px;
   }
 
   .text-1 {
-    width: 39.6875%;
+    width: 39.6753246753%;
   }
 
   .text-2 {
-    width: 40%;
+    width: 39.9999999999%;
   }
 
   ._container .bryanjclark-1,
@@ -202,26 +296,79 @@ body {
     height: auto;
   }
 
+  ._container-1 {
+    margin-top: 250px;
+  }
+
   ._container-4 {
     margin-top: 578px;
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 1024px) {
   body {
     font-size: 2.25em;
   }
 
+  .phone {
+    height: auto;
+    margin-top: 870px;
+  }
+
+  ._container .bryanjclark-1,
+  ._container .image-1,
+  ._container .image-2,
+  ._container .strike-1 {
+    height: auto;
+  }
+
+  ._container-1 {
+    margin-top: 140px;
+  }
+}
+
+@media(max-width: 960px) {
+  ._container .bryanjclark-1,
+  ._container .image-1,
+  ._container .image-2,
+  ._container .strike-1,
+  .phone {
+    height: auto;
+  }
+}
+
+@media(max-width: 640px) {
+  body {
+    font-size: 2.25em;
+  }
+
+  .phone {
+    width: 640px;
+    height: auto;
+  }
+
+  ._container .bryanjclark-1,
+  ._container .image-1,
+  ._container .image-2,
+  ._container .strike-1 {
+    height: auto;
+  }
+
+  ._container-1 {
+    margin-top: 100px;
+  }
+}
+
+@media(max-width: 320px) {
   .broughtoyouby {
     width: 79.6875%;
-    margin-top: 400px;
+    margin-top: 250px;
     font-size: 0.833em;
   }
 
   .container {
     width: 80.3125%;
     height: 238px;
-    margin-top: 0;
   }
 
   .contentoverchrome {
@@ -231,13 +378,13 @@ body {
   .phone {
     width: 320px;
     height: auto;
-    margin-top: 400px;
+    margin-top: 250px;
   }
 
   .text-1 {
     width: 77.1875%;
     min-height: nonepx;
-    margin-top: 296px;
+    margin-top: 16px;
   }
 
   .text-2 {
@@ -269,11 +416,7 @@ body {
   }
 
   ._container-4 {
-    float: none;
-    clear: none;
     height: 84px;
-    margin-top: 400px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 250px;
   }
 }
