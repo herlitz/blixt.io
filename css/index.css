@@ -27,10 +27,53 @@ body {
   filter: none;
 }
 
+.blixt {
+  width: 26.5555555555%;
+  min-width: 255px;
+  min-height: 69px;
+  margin: 7px auto 0;
+  font-style: normal;
+  font-size: 1.944em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
+.blog {
+  display: block;
+  width: 20.3888888888%;
+  margin: 0 auto;
+  font-size: 1.333em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 8px;
+  color: rgb(255, 255, 255);
+}
+
 .broughtoyouby {
   width: 40.7222222222%;
   min-height: 70px;
-  margin: 800px auto 0;
+  margin: 2115px auto 0;
   font-style: normal;
   font-size: 1em;
   font-weight: 400;
@@ -57,7 +100,6 @@ body {
 
 .container {
   width: 27.1666666666%;
-  height: 670px;
   margin: 0 auto;
   -webkit-transform: none;
   -moz-transform: none;
@@ -102,6 +144,35 @@ body {
   -o-filter: none;
   -ms-filter: none;
   filter: none;
+}
+
+.foradn {
+  width: 26.5555555555%;
+  min-width: 255px;
+  min-height: 32px;
+  margin: 0 auto;
+  font-style: normal;
+  font-size: 0.556em;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 10px;
+  color: rgba(255, 255, 255, 0.62);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
 }
 
 .image {
@@ -175,31 +246,24 @@ body {
   filter: none;
 }
 
-.text {
-  width: 26.5555555555%;
-  min-width: 255px;
-  margin-right: auto;
-  margin-left: auto;
-  font-style: normal;
+.presskit,
+.support {
+  display: block;
+  width: 20.3888888888%;
+  margin: 40px auto 0;
+  font-size: 1.333em;
+  font-weight: 700;
   line-height: 1.38;
   text-align: center;
-  letter-spacing: 10px;
-  -webkit-transform: none;
-  -moz-transform: none;
-  -o-transform: none;
-  -ms-transform: none;
-  transform: none;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  -ms-transition: none;
-  transition: none;
-  -webkit-filter: none;
-  -moz-filter: none;
-  -o-filter: none;
-  -ms-filter: none;
-  filter: none;
+  letter-spacing: 8px;
+  color: rgb(255, 255, 255);
 }
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 ._container {
   display: block;
@@ -227,23 +291,16 @@ body {
   width: 256px;
 }
 
+.container-1 {
+  height: 190px;
+}
+
+.container-2 {
+  height: 180px;
+}
+
 .image-2 {
   width: 254px;
-}
-
-.text-1 {
-  min-height: 69px;
-  margin-top: 7px;
-  font-size: 1.944em;
-  font-weight: 700;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.text-2 {
-  min-height: 32px;
-  font-size: 0.556em;
-  color: rgba(255, 255, 255, 0.62);
 }
 
 ._container-1 {
@@ -267,25 +324,40 @@ body {
 }
 
 @media(max-width: 1540px) {
-  .broughtoyouby,
-  .contentoverchrome {
+  .blog {
+    width: 41.1038961038%;
+  }
+
+  .broughtoyouby {
     width: 68.3116883116%;
+    margin-top: 2325px;
   }
 
-  .container {
-    height: 389px;
+  .presskit {
+    width: 27.1428571428%;
   }
 
-  .phone {
-    height: auto;
-    margin-top: 760px;
+  .support {
+    width: 40.8441558441%;
   }
 
-  .text-1 {
+  .container-1 {
+    height: 70px;
+  }
+
+  .container-2 {
+    height: 60px;
+  }
+
+  ._container .blixt-1 {
     width: 39.6753246753%;
   }
 
-  .text-2 {
+  ._container .contentoverchrome-1 {
+    width: 68.3116883116%;
+  }
+
+  ._container .foradn-1 {
     width: 39.9999999999%;
   }
 
@@ -294,6 +366,11 @@ body {
   ._container .image-2,
   ._container .strike-1 {
     height: auto;
+  }
+
+  ._container .phone-1 {
+    height: auto;
+    margin-top: 760px;
   }
 
   ._container-1 {
@@ -305,14 +382,35 @@ body {
   }
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1280px) {
   body {
     font-size: 2.25em;
   }
 
-  .phone {
+  ._container .bryanjclark-1,
+  ._container .image-1,
+  ._container .image-2,
+  ._container .phone-1,
+  ._container .strike-1 {
     height: auto;
-    margin-top: 870px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .broughtoyouby {
+    margin-top: 1800px;
+  }
+
+  .presskit {
+    width: 40.8203125%;
+  }
+
+  .support {
+    width: 52.63671875%;
+  }
+
+  .container-2 {
+    height: 96px;
   }
 
   ._container .bryanjclark-1,
@@ -320,6 +418,11 @@ body {
   ._container .image-2,
   ._container .strike-1 {
     height: auto;
+  }
+
+  ._container .phone-1 {
+    height: auto;
+    margin-top: 550px;
   }
 
   ._container-1 {
@@ -328,29 +431,55 @@ body {
 }
 
 @media(max-width: 960px) {
-  ._container .bryanjclark-1,
-  ._container .image-1,
-  ._container .image-2,
-  ._container .strike-1,
-  .phone {
-    height: auto;
-  }
-}
-
-@media(max-width: 640px) {
   body {
     font-size: 2.25em;
   }
 
-  .phone {
-    width: 640px;
+  .broughtoyouby {
+    margin-top: 2347px;
+  }
+
+  .presskit {
+    width: 46.0416666666%;
+  }
+
+  ._container .bryanjclark-1,
+  ._container .image-1,
+  ._container .image-2,
+  ._container .phone-1,
+  ._container .strike-1 {
     height: auto;
+  }
+
+  ._container-1 {
+    margin-top: 250px;
+  }
+}
+
+@media(max-width: 568px) {
+  .presskit {
+    width: 69.7183098591%;
+    font-size: 0.833em;
+  }
+
+  .blog,
+  .support {
+    font-size: 0.833em;
+  }
+
+  ._container .blixt-1 {
+    width: 39.7887323943%;
   }
 
   ._container .bryanjclark-1,
   ._container .image-1,
   ._container .image-2,
   ._container .strike-1 {
+    height: auto;
+  }
+
+  ._container .phone-1 {
+    width: 640px;
     height: auto;
   }
 
@@ -360,34 +489,53 @@ body {
 }
 
 @media(max-width: 320px) {
+  body {
+    font-size: 2.25em;
+  }
+
+  .blog {
+    width: 76.5625%;
+  }
+
   .broughtoyouby {
     width: 79.6875%;
-    margin-top: 250px;
+    margin-top: 978px;
     font-size: 0.833em;
   }
 
   .container {
     width: 80.3125%;
-    height: 238px;
   }
 
-  .contentoverchrome {
+  .presskit {
+    width: 105.3125%;
+  }
+
+  .support {
+    width: 95.9375%;
+  }
+
+  .container-1 {
+    height: 41px;
+    margin-top: 334px;
+  }
+
+  .container-2 {
+    height: 29px;
+    margin-top: 26px;
+  }
+
+  ._container .blixt-1 {
     width: 79.6875%;
-  }
-
-  .phone {
-    width: 320px;
-    height: auto;
-    margin-top: 250px;
-  }
-
-  .text-1 {
-    width: 77.1875%;
     min-height: nonepx;
     margin-top: 16px;
   }
 
-  .text-2 {
+  ._container .contentoverchrome-1 {
+    width: 79.6875%;
+  }
+
+  ._container .foradn-1 {
     width: 80%;
   }
 
@@ -398,6 +546,12 @@ body {
   ._container .image-2 {
     width: 247px;
     height: auto;
+  }
+
+  ._container .phone-1 {
+    width: 320px;
+    height: auto;
+    margin-top: 250px;
   }
 
   ._container .bryanjclark-1,
@@ -416,7 +570,11 @@ body {
   }
 
   ._container-4 {
+    float: left;
+    clear: both;
     height: 84px;
     margin-top: 250px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
