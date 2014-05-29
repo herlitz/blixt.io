@@ -264,7 +264,6 @@ body {
     to   { opacity: 1; }
 }
 
-
 ._container {
   display: block;
   width: 100%;
@@ -387,12 +386,28 @@ body {
     font-size: 2.25em;
   }
 
+  .broughtoyouby {
+    margin-top: 2347px;
+  }
+
+  .presskit {
+    width: 69.7183098591%;
+  }
+
+  .support {
+    width: 52.63671875%;
+  }
+
   ._container .bryanjclark-1,
   ._container .image-1,
   ._container .image-2,
   ._container .phone-1,
   ._container .strike-1 {
     height: auto;
+  }
+
+  ._container-1 {
+    margin-top: 100px;
   }
 }
 
@@ -403,10 +418,6 @@ body {
 
   .presskit {
     width: 40.8203125%;
-  }
-
-  .support {
-    width: 52.63671875%;
   }
 
   .container-2 {
@@ -508,7 +519,7 @@ body {
   }
 
   .presskit {
-    width: 105.3125%;
+    width: 90.9375%;
   }
 
   .support {
